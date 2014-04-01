@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
            
-  <project path="build" remote="jafier" revision="refs/heads/ktr2" name="Jafier/android_build" groups="pdk" >
+  <project path="build" remote="jafier" revision="ktr2" name="Jafier/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -478,7 +478,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   
   <!-- Our Own Repo Start -->
-  <project path="vendor/jr" remote="jafier" revision="refs/heads/ktr2" name="Jafier/android_vendor_jr" />
+  <project path="vendor/jr" remote="jafier" revision="ktr2" name="Jafier/android_vendor_jr" />
   <!-- Our Own repo ends -->
   
 </manifest>
