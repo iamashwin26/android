@@ -19,7 +19,7 @@
            review="gerrit.jafierroms.com" />
 
   <default revision="ktr2"
-           remote="github"
+           remote="JR"
            sync-c="true"
            sync-j="8" />
            
