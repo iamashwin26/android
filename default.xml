@@ -122,7 +122,6 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="prebuilts/misc" remote="cm" name="CyanogenMod/android_prebuilts_misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -130,7 +129,6 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk,tools" />
-  
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -472,6 +470,7 @@
   <project path="packages/wallpapers/NoiseField" remote="cm" name="CyanogenMod/android_packages_wallpapers_NoiseField" revision="cm-11.0" />
   <project path="packages/wallpapers/PhaseBeam" remote="cm" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" revision="cm-11.0" />
   <project path="prebuilt" remote="cm" name="CyanogenMod/android_prebuilt" revision="cm-11.0" />
+  <project path="prebuilts/misc" remote="cm" name="CyanogenMod/android_prebuilts_misc" revision="cm-11.0" groups="pdk" />
   <project path="sdk" remote="cm" name="CyanogenMod/android_sdk" revision="cm-11.0" />
   <project path="system/core" remote="cm" name="CyanogenMod/android_system_core" revision="cm-11.0" groups="pdk" />
   <project path="system/extras" remote="cm" name="CyanogenMod/android_system_extras" revision="cm-11.0" groups="pdk" />
