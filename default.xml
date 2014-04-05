@@ -484,7 +484,7 @@
   
   <!-- Our Own Repo Start -->
   <project path="android" remote="JR" name="android" />
-  <project path="bootable/recovery" remote="JR" name="CyanogenMod/android_bootable_recovery" />  
+  <project path="bootable/recovery" remote="JR" name="android_bootable_recovery" />  
   <project path="frameworks/opt/hardware" remote="JR" name="android_frameworks_opt_hardware" />
   <project path="frameworks/opt/telephony" remote="JR" name="android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/support" remote="JR" name="android_frameworks_support" />
