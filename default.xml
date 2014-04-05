@@ -354,18 +354,15 @@
   <project path="frameworks/opt/colorpicker" remote="cm" name="CyanogenMod/android_frameworks_opt_colorpicker" revision="cm-11.0" />
   <project path="frameworks/opt/datetimepicker" remote="cm" name="CyanogenMod/android_frameworks_opt_datetimepicker" revision="cm-11.0" />
   <project path="frameworks/opt/emoji" remote="cm" name="CyanogenMod/android_frameworks_opt_emoji" revision="cm-11.0" />
-  <project path="frameworks/opt/hardware" remote="cm" name="CyanogenMod/android_frameworks_opt_hardware" revision="cm-11.0" />
   <project path="frameworks/opt/inputmethodcommon" remote="cm" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" revision="cm-11.0" />
   <project path="frameworks/opt/mailcommon" remote="cm" name="CyanogenMod/android_frameworks_opt_mailcommon" revision="cm-11.0" />
   <project path="frameworks/opt/mms" remote="cm" name="CyanogenMod/android_frameworks_opt_mms" revision="cm-11.0" />
   <project path="frameworks/opt/net/voip" remote="cm" name="CyanogenMod/android_frameworks_opt_net_voip" revision="cm-11.0" />
   <project path="frameworks/opt/photoviewer" remote="cm" name="CyanogenMod/android_frameworks_opt_photoviewer" revision="cm-11.0" />
   <project path="frameworks/opt/timezonepicker" remote="cm" name="CyanogenMod/android_frameworks_opt_timezonepicker" revision="cm-11.0" />
-  <project path="frameworks/opt/telephony" remote="cm" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" revision="cm-11.0" />
   <project path="frameworks/opt/telephony-msim" remote="cm" name="CyanogenMod/android_frameworks_opt_telephony-msim" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" remote="cm" name="CyanogenMod/android_frameworks_opt_vcard" revision="cm-11.0" />
   <project path="frameworks/rs" remote="cm" name="CyanogenMod/android_frameworks_rs" revision="cm-11.0" groups="pdk" />
-  <project path="frameworks/support" remote="cm" name="CyanogenMod/android_frameworks_support" revision="cm-11.0" />
   <project path="frameworks/testing" remote="cm" name="CyanogenMod/android_frameworks_testing" revision="cm-11.0" />  
   <project path="frameworks/volley" remote="cm" name="CyanogenMod/android_frameworks_volley" revision="cm-11.0" />
   <project path="frameworks/webview" remote="cm" name="CyanogenMod/android_frameworks_webview" revision="cm-11.0" />
@@ -488,6 +485,9 @@
   
   <!-- Our Own Repo Start -->
   <project path="android" remote="JR" name="android" />
+  <project path="frameworks/opt/hardware" remote="JR" name="android_frameworks_opt_hardware" />
+  <project path="frameworks/opt/telephony" remote="JR" name="android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/support" remote="JR" name="android_frameworks_support" />
   <project path="vendor/jr" remote="JR" name="android_vendor_jr" />
   <!-- Our Own repo ends -->
   
