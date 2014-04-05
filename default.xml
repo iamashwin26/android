@@ -148,7 +148,6 @@
   <project path="art" remote="cm" name="CyanogenMod/android_art" revision="cm-11.0" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" revision="cm-11.0" groups="pdk" />
   <project path="bootable/diskinstaller" remote="cm" name="CyanogenMod/android_bootable_diskinstaller" revision="cm-11.0" />
-  <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" revision="cm-11.0" />  
   <project path="dalvik" remote="cm" name="CyanogenMod/android_dalvik" revision="cm-11.0" />
   <project path="development" remote="cm" name="CyanogenMod/android_development" revision="cm-11.0" />
   <project path="device/common" remote="cm" name="CyanogenMod/android_device_common" revision="cm-11.0" />
@@ -485,6 +484,7 @@
   
   <!-- Our Own Repo Start -->
   <project path="android" remote="JR" name="android" />
+  <project path="bootable/recovery" remote="JR" name="CyanogenMod/android_bootable_recovery" />  
   <project path="frameworks/opt/hardware" remote="JR" name="android_frameworks_opt_hardware" />
   <project path="frameworks/opt/telephony" remote="JR" name="android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/support" remote="JR" name="android_frameworks_support" />
