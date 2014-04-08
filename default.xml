@@ -398,7 +398,7 @@
   <project path="frameworks/volley" remote="cm" name="CyanogenMod/android_frameworks_volley" revision="stable/cm-11.0" />
   <project path="frameworks/webview" remote="cm" name="CyanogenMod/android_frameworks_webview" revision="stable/cm-11.0" />
   <project path="frameworks/wilhelm" remote="cm" name="CyanogenMod/android_frameworks_wilhelm" revision="stable/cm-11.0" />
-  <project path="hardware/cm" remote="cm" name="android_hardware_cm" revision="stable/cm-11.0" />
+  <project path="hardware/cm" remote="cm" name="CyanogenMod/android_hardware_cm" revision="stable/cm-11.0" />
   <project path="hardware/akm" remote="cm" name="CyanogenMod/android_hardware_akm" revision="stable/cm-11.0" groups="pdk" />
   <project path="hardware/broadcom/libbt" remote="cm" name="CyanogenMod/android_hardware_broadcom_libbt" revision="stable/cm-11.0" groups="pdk" />
   <project path="hardware/broadcom/wlan" remote="cm" name="CyanogenMod/android_hardware_broadcom_wlan" revision="stable/cm-11.0" groups="broadcom_wlan" />
