@@ -46,7 +46,6 @@
    <project path="packages/providers/ContactsProvider" remote="JR" name="android_packages_providers_ContactsProvider" revision="ktr2" />
    <project path="packages/providers/TelephonyProvider" remote="JR" name="android_packages_providers_TelephonyProvider" revision="ktr2" />
 <project path="frameworks/av" remote="JR" name="android_frameworks_av" revision="ktr2" groups="pdk" />
-   <project path="hardware/jr" remote="JR" name="android_hardware_jr" revision="ktr2" />
    <project path="packages/apps/Calculator" remote="JR" name="android_packages_apps_Calculator" revision="ktr2" />
    <project path="packages/apps/ContactsCommon" remote="JR" name="android_packages_apps_ContactsCommon" revision="ktr2" />
   <project path="packages/apps/Dialer" remote="JR" name="android_packages_apps_Dialer" revision="ktr2" />
@@ -399,6 +398,7 @@
   <project path="frameworks/volley" remote="cm" name="CyanogenMod/android_frameworks_volley" revision="stable/cm-11.0" />
   <project path="frameworks/webview" remote="cm" name="CyanogenMod/android_frameworks_webview" revision="stable/cm-11.0" />
   <project path="frameworks/wilhelm" remote="cm" name="CyanogenMod/android_frameworks_wilhelm" revision="stable/cm-11.0" />
+  <project path="hardware/cm" remote="cm" name="android_hardware_cm" revision="stable/cm-11.0" />
   <project path="hardware/akm" remote="cm" name="CyanogenMod/android_hardware_akm" revision="stable/cm-11.0" groups="pdk" />
   <project path="hardware/broadcom/libbt" remote="cm" name="CyanogenMod/android_hardware_broadcom_libbt" revision="stable/cm-11.0" groups="pdk" />
   <project path="hardware/broadcom/wlan" remote="cm" name="CyanogenMod/android_hardware_broadcom_wlan" revision="stable/cm-11.0" groups="broadcom_wlan" />
