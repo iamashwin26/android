@@ -371,8 +371,6 @@
   <project path="external/vim" remote="cm" name="CyanogenMod/android_external_vim" revision="stable/cm-11.0" />
   <project path="external/webp" remote="cm" name="CyanogenMod/android_external_webp" revision="stable/cm-11.0" />
   <project path="external/webrtc" remote="cm" name="CyanogenMod/android_external_webrtc" revision="stable/cm-11.0" groups="pdk" />
-  <project path="external/wpa_supplicant_8" remote="cm" name="CyanogenMod/android_external_wpa_supplicant_8" revision="stable/cm-11.0" groups="pdk" />
-  <project path="external/wpa_supplicant_8_ti" remote="cm" name="CyanogenMod/android_external_wpa_supplicant_8_ti" revision="stable/cm-11.0" />
   <project path="external/xmlwriter" remote="cm" name="CyanogenMod/android_external_xmlwriter" revision="stable/cm-11.0" />
   <project path="external/xmp_toolkit" remote="cm" name="CyanogenMod/android_external_xmp_toolkit" revision="stable/cm-11.0" />
   <project path="external/yaffs2" remote="cm" name="CyanogenMod/android_external_yaffs2" revision="stable/cm-11.0" groups="pdk" />
