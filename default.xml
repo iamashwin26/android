@@ -27,46 +27,46 @@
 
   <!-- Our Own Repo Start -->
   <project path="android" remote="JR" name="android" revision="ktr2" />
-  <project path="bootable/recovery" remote="JR" name="android_bootable_recovery" revision="ktr2" />  
+  <project path="art" remote="JR" name="android_art" revision="ktr2" />
+  <project path="bionic" remote="JR" name="android_bionic" revision="ktr2" groups="pdk" />
+  <project path="bootable/diskinstaller" remote="JR" name="android_bootable_diskinstaller" revision="ktr2" />
+  <project path="bootable/recovery" remote="JR" name="android_bootable_recovery" revision="ktr2" />
+  <project path="dalvik" remote="JR" name="android_dalvik" revision="ktr2" />
+  <project path="frameworks/av" remote="JR" name="android_frameworks_av" revision="ktr2" groups="pdk" />
+  <project path="frameworks/base" remote="JR" name="android_frameworks_base" revision="ktr2" />
+  <project path="frameworks/native" remote="JR" name="android_frameworks_native" revision="ktr2" groups="pdk" />  
   <project path="frameworks/opt/hardware" remote="JR" name="android_frameworks_opt_hardware" revision="ktr2" />
   <project path="frameworks/opt/telephony" remote="JR" name="android_frameworks_opt_telephony" groups="pdk" revision="ktr2" />
-  <project path="frameworks/support" remote="JR" name="android_frameworks_support" revision="ktr2" />
-  <project path="vendor/jr" remote="JR" name="android_vendor_jr" revision="ktr2" />
-  <project path="packages/apps/Launcher3" remote="JR" name="android_packages_apps_Launcher3" revision="ktr2" />
-  <project path="bionic" remote="JR" name="android_bionic" revision="ktr2" groups="pdk" />
-  <project path="packages/apps/ScreenRecorder" remote="JR" name="android_packages_apps_ScreenRecorder" revision="ktr2" />
-  <project path="packages/apps/Nfc" remote="JR" name="android_packages_apps_Nfc" revision="ktr2" />
-   <project path="packages/inputmethods/PinyinIME" remote="JR" name="android_packages_inputmethods_PinyinIME" revision="ktr2" />
-   <project path="packages/inputmethods/OpenWnn" remote="JR" name="android_packages_inputmethods_OpenWnn" revision="ktr2" />
-   <project path="system/media" remote="JR" name="android_system_media" revision="ktr2" groups="pdk" />
-   <project path="art" remote="JR" name="android_art" revision="ktr2" />
-   <project path="dalvik" remote="JR" name="android_dalvik" revision="ktr2" />
-   <project path="packages/apps/Browser" remote="JR" name="android_packages_apps_Browser" revision="ktr2" />
-   <project path="packages/apps/Gallery2" remote="JR" name="android_packages_apps_Gallery2" revision="ktr2" />
-   <project path="packages/providers/ContactsProvider" remote="JR" name="android_packages_providers_ContactsProvider" revision="ktr2" />
-   <project path="packages/providers/TelephonyProvider" remote="JR" name="android_packages_providers_TelephonyProvider" revision="ktr2" />
-<project path="frameworks/av" remote="JR" name="android_frameworks_av" revision="ktr2" groups="pdk" />
-   <project path="packages/apps/Calculator" remote="JR" name="android_packages_apps_Calculator" revision="ktr2" />
-   <project path="packages/apps/ContactsCommon" remote="JR" name="android_packages_apps_ContactsCommon" revision="ktr2" />
-  <project path="packages/apps/Dialer" remote="JR" name="android_packages_apps_Dialer" revision="ktr2" />
-  <project path="packages/apps/InCallUI" remote="JR" name="android_packages_apps_InCallUI" revision="ktr2" />
-  <project path="packages/apps/Mms" remote="JR" name="android_packages_apps_Mms" revision="ktr2" />
-  <project path="packages/inputmethods/LatinIME" remote="JR" name="android_packages_inputmethods_LatinIME" revision="ktr2" />
-  <project path="packages/services/Telephony" remote="JR" name="android_packages_services_Telephony" revision="ktr2" />
-  <project path="packages/wallpapers/PhaseBeam" remote="JR" name="android_packages_wallpapers_PhaseBeam" revision="ktr2" />
-  <project path="packages/apps/DSPManager" remote="JR" name="android_packages_apps_DSPManager" revision="ktr2" />
-  <project path="packages/apps/Lightbulb" remote="JR" name="android_packages_apps_Lightbulb" revision="ktr2" />
-  <project path="system/core" remote="JR" name="android_system_core" revision="ktr2" groups="pdk" />
-  <project path="packages/apps/Contacts" remote="JR" name="android_packages_apps_Contacts" revision="ktr2" />
-  <project path="frameworks/native" remote="JR" name="android_frameworks_native" revision="ktr2" groups="pdk" />
-  <project path="frameworks/base" remote="JR" name="android_frameworks_base" revision="ktr2" />
-  <project path="packages/apps/Camera2" remote="JR" name="android_packages_apps_Camera2" revision="ktr2" />
-  <project path="packages/apps/Settings" remote="JR" name="android_packages_apps_Settings" revision="ktr2" />
   <project path="frameworks/opt/telephony-msim" remote="JR" name="android_frameworks_opt_telephony-msim" revision="ktr2" />
-  <project path="packages/apps/PhoneCommon" remote="JR" name="android_packages_apps_PhoneCommon" revision="ktr2" />
-  <project path="bootable/diskinstaller" remote="JR" name="android_bootable_diskinstaller" revision="ktr2" />
+  <project path="frameworks/support" remote="JR" name="android_frameworks_support" revision="ktr2" />  
+  <project path="packages/apps/Browser" remote="JR" name="android_packages_apps_Browser" revision="ktr2" />
+  <project path="packages/apps/Gallery2" remote="JR" name="android_packages_apps_Gallery2" revision="ktr2" />
+  <project path="packages/apps/Calculator" remote="JR" name="android_packages_apps_Calculator" revision="ktr2" />
+  <project path="packages/apps/Camera2" remote="JR" name="android_packages_apps_Camera2" revision="ktr2" />
+  <project path="packages/apps/Contacts" remote="JR" name="android_packages_apps_Contacts" revision="ktr2" />   
+  <project path="packages/apps/ContactsCommon" remote="JR" name="android_packages_apps_ContactsCommon" revision="ktr2" />
+  <project path="packages/apps/Dialer" remote="JR" name="android_packages_apps_Dialer" revision="ktr2" />
+  <project path="packages/apps/DSPManager" remote="JR" name="android_packages_apps_DSPManager" revision="ktr2" />
+  <project path="packages/apps/InCallUI" remote="JR" name="android_packages_apps_InCallUI" revision="ktr2" />
   <project path="packages/apps/JRFilemanager" remote="JR" name="android_packages_apps_JRFilemanager" revision="ktr2" />
   <project path="packages/apps/JRUpdater" remote="JR" name="android_packages_apps_JRUpdater" revision="ktr2" />
+  <project path="packages/apps/Launcher3" remote="JR" name="android_packages_apps_Launcher3" revision="ktr2" />
+  <project path="packages/apps/Lightbulb" remote="JR" name="android_packages_apps_Lightbulb" revision="ktr2" />
+  <project path="packages/apps/Mms" remote="JR" name="android_packages_apps_Mms" revision="ktr2" />
+  <project path="packages/apps/Nfc" remote="JR" name="android_packages_apps_Nfc" revision="ktr2" />  
+  <project path="packages/apps/PhoneCommon" remote="JR" name="android_packages_apps_PhoneCommon" revision="ktr2" />
+  <project path="packages/apps/ScreenRecorder" remote="JR" name="android_packages_apps_ScreenRecorder" revision="ktr2" />  
+  <project path="packages/apps/Settings" remote="JR" name="android_packages_apps_Settings" revision="ktr2" />
+  <project path="packages/inputmethods/LatinIME" remote="JR" name="android_packages_inputmethods_LatinIME" revision="ktr2" />
+  <project path="packages/inputmethods/PinyinIME" remote="JR" name="android_packages_inputmethods_PinyinIME" revision="ktr2" />
+  <project path="packages/inputmethods/OpenWnn" remote="JR" name="android_packages_inputmethods_OpenWnn" revision="ktr2" />
+  <project path="packages/providers/ContactsProvider" remote="JR" name="android_packages_providers_ContactsProvider" revision="ktr2" />
+  <project path="packages/providers/TelephonyProvider" remote="JR" name="android_packages_providers_TelephonyProvider" revision="ktr2" />
+  <project path="packages/services/Telephony" remote="JR" name="android_packages_services_Telephony" revision="ktr2" />
+  <project path="packages/wallpapers/PhaseBeam" remote="JR" name="android_packages_wallpapers_PhaseBeam" revision="ktr2" />  
+  <project path="system/core" remote="JR" name="android_system_core" revision="ktr2" groups="pdk" />
+  <project path="system/media" remote="JR" name="android_system_media" revision="ktr2" groups="pdk" />
+  <project path="vendor/jr" remote="JR" name="android_vendor_jr" revision="ktr2" />
 
   <!-- Our Own repo ends -->
 
