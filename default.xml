@@ -32,6 +32,7 @@
   <project path="bootable/diskinstaller" remote="JR" name="android_bootable_diskinstaller" revision="ktr2" />
   <project path="bootable/recovery" remote="JR" name="android_bootable_recovery" revision="ktr2" />
   <project path="dalvik" remote="JR" name="android_dalvik" revision="ktr2" />
+  <project path="external/koush/Superuser" remote="JR" name="Superuser" />
   <project path="external/wpa_supplicant_8" remote="JR" name="android_external_wpa_supplicant_8" revision="ktr2" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" remote="JR" name="android_external_wpa_supplicant_8_ti" revision="ktr2" />
   <project path="frameworks/av" remote="JR" name="android_frameworks_av" revision="ktr2" groups="pdk" />
