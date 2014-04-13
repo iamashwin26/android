@@ -468,7 +468,7 @@
   <project path="packages/wallpapers/MagicSmoke" remote="cm" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" revision="stable/cm-11.0" />
   <project path="packages/wallpapers/MusicVisualization" remote="cm" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" revision="stable/cm-11.0" />
   <project path="packages/wallpapers/NoiseField" remote="cm" name="CyanogenMod/android_packages_wallpapers_NoiseField" revision="stable/cm-11.0" />
-  <project path="prebuilt" remote="cm" name="CyanogenMod/android_prebuilt" revision="stable/cm-11.0" />
+  <project path="prebuilt" remote="cm" name="CyanogenMod/android_prebuilt" revision="stable/cm-11.0" groups="pdk" />
   <project path="prebuilts/misc" remote="cm" name="CyanogenMod/android_prebuilts_misc" revision="stable/cm-11.0" groups="pdk" />
   <project path="sdk" remote="cm" name="CyanogenMod/android_sdk" revision="stable/cm-11.0" />
   <project path="system/extras" remote="cm" name="CyanogenMod/android_system_extras" revision="stable/cm-11.0" groups="pdk" />
