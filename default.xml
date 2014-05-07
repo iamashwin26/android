@@ -47,7 +47,7 @@
   <project path="packages/inputmethods/LatinIME" remote="JR" name="android_packages_inputmethods_LatinIME" revision="ktr2" />
   <project path="packages/services/Telephony" remote="JR" name="android_packages_services_Telephony" revision="ktr2" />
   <project path="packages/wallpapers/PhaseBeam" remote="JR" name="android_packages_wallpapers_PhaseBeam" revision="ktr2" />  
-  <project path="vendor/jr" remote="JR" name="android_vendor_jr" revision="ktr2" />
+  <project path="vendor/cm" remote="JR" name="android_vendor_cm" revision="ktr2" />
   <project path="packages/apps/PackageInstaller" remote="JR" name="android_packages_apps_PackageInstaller" revision="ktr2" />
   <project path="frameworks/support" remote="JR" name="android_frameworks_support" groups="pdk" revision="ktr2" />
   <!-- Our Own repo ends -->
