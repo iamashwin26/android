@@ -244,7 +244,7 @@
   <project path="external/kernel-headers" remote="cm" name="CyanogenMod/android_external_kernel-headers" revision="stable/cm-11.0" />
   <project path="external/kissfft" remote="cm" name="CyanogenMod/android_external_kissfft" revision="stable/cm-11.0" />
   <project path="external/koush/ion" remote="cm" name="CyanogenMod/ion" revision="stable/cm-11.0" />
-  <project path="external/koush/Widgets" remote"cm" name="CyanogenMod/Widgets"  revision="stable/cm-11.0" />
+  <project path="external/koush/Widgets" remote="cm" name="CyanogenMod/Widgets"  revision="stable/cm-11.0" />
   <project path="external/koush/AndroidAsync" remote="cm" name="CyanogenMod/AndroidAsync" revision="stable/cm-11.0" />
   <project path="external/libcap-ng" remote="cm" name="CyanogenMod/android_external_libcap-ng" revision="stable/cm-11.0" />
   <project path="external/libffi" remote="cm" name="CyanogenMod/android_external_libffi" revision="stable/cm-11.0" />
