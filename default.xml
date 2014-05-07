@@ -39,9 +39,7 @@
   <project path="packages/apps/Camera2" remote="JR" name="android_packages_apps_Camera2" revision="ktr2" />
   <project path="packages/apps/Contacts" remote="JR" name="android_packages_apps_Contacts" revision="ktr2" />
   <project path="packages/apps/Dialer" remote="JR" name="android_packages_apps_Dialer" revision="ktr2" />
-  <project path="packages/apps/InCallUI" remote="JR" name="android_packages_apps_InCallUI" revision="ktr2" />
-  <project path="packages/apps/JRFilemanager" remote="JR" name="android_packages_apps_JRFilemanager" revision="ktr2" />
-  <project path="packages/apps/JRUpdater" remote="JR" name="android_packages_apps_JRUpdater" revision="ktr2" />
+  <project path="packages/apps/InCallUI" remote="JR" name="android_packages_apps_InCallUI" revision="ktr2" /
   <project path="packages/apps/Launcher3" remote="JR" name="android_packages_apps_Launcher3" revision="ktr2" />
   <project path="packages/apps/Lightbulb" remote="JR" name="android_packages_apps_Lightbulb" revision="ktr2" />
   <project path="packages/apps/Mms" remote="JR" name="android_packages_apps_Mms" revision="ktr2" />
@@ -51,8 +49,7 @@
   <project path="packages/wallpapers/PhaseBeam" remote="JR" name="android_packages_wallpapers_PhaseBeam" revision="ktr2" />  
   <project path="vendor/jr" remote="JR" name="android_vendor_jr" revision="ktr2" />
   <project path="packages/apps/PackageInstaller" remote="JR" name="android_packages_apps_PackageInstaller" revision="ktr2" />
-  <project path="frameworks/support" remote="JR" name="android_frameworks_support" groups="pdk" revision"ktr2" />
-  <project path="packages/apps/ScreenRecorder" remote"JR" name="android_packages_apps_ScreenRecorder" revision="ktr2" />
+  <project path="frameworks/support" remote="JR" name="android_frameworks_support" groups="pdk" revision="ktr2" />
   <!-- Our Own repo ends -->
 
   <!-- AOSP hosted Repo Start -->
