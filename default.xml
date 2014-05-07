@@ -28,7 +28,7 @@
   <!-- Our Own Repo Start -->
   <project path="android" remote="JR" name="android" revision="ktr2" />
   <project path="art" remote="JR" name="android_art" revision="ktr2" />
-  <project path="bionic" remote="JR" name="android_bionic" revision="ktr2" />
+  <project path="bionic" remote="JR" name="android_bionic" groups="pdk" revision="ktr2" />
   <project path="dalvik" remote="JR" name="android_dalvik" revision="ktr2" />
   <project path="frameworks/av" remote="JR" name="android_frameworks_av" revision="ktr2" />
   <project path="frameworks/base" remote="JR" name="android_frameworks_base" revision="ktr2" />
@@ -434,8 +434,6 @@
   <project path="system/qcom" remote="cm" name="CyanogenMod/android_system_qcom" revision="stable/cm-11.0" groups="qcom" />
   <project path="system/security" remote="cm" name="CyanogenMod/android_system_security" revision="stable/cm-11.0" groups="pdk" />
   <project path="system/vold" remote="cm" name="CyanogenMod/android_system_vold" revision="stable/cm-11.0" groups="pdk" />
-  <project path="art" remote="cm" name="android_art" revision="stable/cm-11.0" />
-  <project path="bionic" remote="cm" name="android_bionic" revision="stable/cm-11.0" groups="pdk" />
   <project path="bootable/diskinstaller" remote="cm" name="android_bootable_diskinstaller" revision="stable/cm-11.0" />
   <project path="bootable/recovery" remote="cm" name="android_bootable_recovery" revision="stable/cm-11.0" />
   <project path="external/wpa_supplicant_8" remote="cm" name="android_external_wpa_supplicant_8" revision="stable/cm-11.0" groups="pdk" />
