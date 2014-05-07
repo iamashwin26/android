@@ -438,7 +438,6 @@
   <project path="bootable/recovery" remote="cm" name="android_bootable_recovery" revision="stable/cm-11.0" />
   <project path="external/wpa_supplicant_8" remote="cm" name="android_external_wpa_supplicant_8" revision="stable/cm-11.0" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" remote="cm" name="android_external_wpa_supplicant_8_ti" revision="stable/cm-11.0" />
-  <project path="frameworks/av" remote="cm" name="android_frameworks_av" revision="stable/cm-11.0" groups="pdk" />
   <project path="frameworks/native" remote="cm" name="android_frameworks_native" revision="stable/cm-11.0" groups="pdk" />  
   <project path="frameworks/opt/hardware" remote="cm" name="android_frameworks_opt_hardware" revision="stable/cm-11.0" />
   <project path="frameworks/opt/telephony-msim" remote="cm" name="android_frameworks_opt_telephony-msim" revision="stable/cm-11.0" />
